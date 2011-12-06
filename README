@@ -1,4 +1,4 @@
-#Improved wombat256 colorscheme for Vim
+Improved wombat256 colorscheme for Vim
 
 Changes from original wombat256:
 - Changed the static background color to terminal default, which makes it transparent (if your terminal is)
