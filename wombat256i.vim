@@ -5,7 +5,12 @@
 " wombat256.vim - a modified version of Wombat by Lars Nielsen that also
 " works on xterms with 88 or 256 colors. The algorithm for approximating the
 " GUI colors with the xterm palette is from desert256.vim by Henry So Jr.
-" Minor changes by echofish (http://echofish.org)
+
+" Minor changes by Daniel Solstad (http://dsolstad.com)
+" - Changed the static background color to terminal default, which makes it transparent (if your terminal is)
+" - Changed colors of line numbering
+" - Changed non text to nothing. Keeping space you havn't written on yet the same as the rest, and not hard black.
+
 
 set background=dark
 
